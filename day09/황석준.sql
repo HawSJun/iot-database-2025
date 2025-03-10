@@ -20,10 +20,6 @@ SELECT Names AS '도서명'
 /* 3. 다음과 같은 결과가 나오도록 SQL 문을 작성하시오.
       (책을 한번도 빌린적이 없는 회원을 뜻합니다. 18명이 나옵니다.)
 */
-SELECT * FROM membertbl;
-SELECT * FROM rentaltbl;
-
-
 SELECT m.Names AS '비대여자명'
 	 , m.levels AS '등급'
      , m.addr AS '주소'
